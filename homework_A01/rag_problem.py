@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
     question_1(omega)
     print(f'===' * 60)
-    for n_honest in range(10):
+    for n_honest in range(10+1):
         question_2(n_honest=n_honest)
 
     print(f'===' * 60)
